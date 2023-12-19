@@ -1,3 +1,13 @@
-.sportlink-upload {
-  background-color: #8aaae5;
+.upload {
+  &__text {
+    // color: #333333;
+    width: 100%;
+    text-align: center;
+    height: 20em;
+    margin-top: 5em;
+  }
+
+  &__actions {
+    text-align: center;
+  }
 }
