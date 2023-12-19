@@ -1,3 +1,5 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
 /* You can add global styles to this file, and also import other style files */
 html, body {
   margin: 0;
@@ -5,6 +7,7 @@ html, body {
 
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #8AAAE5;
 }
 
 /* CAN (MUST) BE REMOVED ! Sample Global style */
@@ -15,7 +18,8 @@ html, body {
   align-items: center;
   justify-content: center;
 
-  background: url(./assets/background.jpg) no-repeat center fixed;
+  background-color: #8AAAE5;
+  // background: url(./assets/background.jpg) no-repeat center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 
